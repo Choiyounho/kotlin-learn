@@ -13,7 +13,7 @@ fun main() {
     println(number)
 
     year = 2011
-    hello = "dczx"
+    hello = "hi"
 //  number = 105 Val cannot be reassigned
 
     println(year)
