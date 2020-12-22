@@ -1,4 +1,4 @@
-package com.soten.practice
+package com.soten.fastcampus.practice
 
 var name = "Younho"
 var introduce = "My name is " + name + " Nice to meet you"
