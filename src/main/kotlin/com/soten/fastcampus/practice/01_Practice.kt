@@ -1,5 +1,7 @@
 package com.soten.fastcampus.practice
 
+// 변수타입 연습
+
 var name = "Younho"
 var introduce = "My name is " + name + " Nice to meet you"
 var introduce2 = "My name is $name Nice to meet you"

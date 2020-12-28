@@ -65,5 +65,4 @@ fun main() {
 
     println(and)
     println(or)
-
 }

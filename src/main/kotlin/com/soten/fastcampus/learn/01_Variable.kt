@@ -4,8 +4,6 @@ var year = 2020 // 변하는 변수
 var hello = "hello"
 val number = 100 // 변하지 않는 변수 Java 로는 final 변수
 
-
-
 fun main() {
 
     println(year + 1)
