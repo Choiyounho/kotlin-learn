@@ -1,4 +1,4 @@
-package com.soten
+package com.soten.fastcampus.learn
 
 var year = 2020 // 변하는 변수
 var hello = "hello"

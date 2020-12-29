@@ -1,4 +1,4 @@
-package com.soten
+package com.soten.fastcampus.learn
 
 // 변수의 타입 설정 법
 var number1 : Int = 1000000000
