@@ -1,8 +1,8 @@
 package com.soten.fastcampus.learn
 
-var year = 2020 // 변하는 변수
-var hello = "hello"
-val number = 100 // 변하지 않는 변수 Java 로는 final 변수
+private var year = 2020 // 변하는 변수
+private var hello = "hello"
+private val number = 100 // 변하지 않는 변수 Java 로는 final 변수
 
 fun main() {
 

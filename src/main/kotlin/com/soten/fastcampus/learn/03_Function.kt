@@ -1,26 +1,26 @@
 package com.soten.fastcampus.learn
 
 // fun 함수명(변수명 : T, 변수명 : T...) : R {}
-fun plus(first: Int, second: Int): Int {
+private fun plus(first: Int, second: Int): Int {
     return first + second
 }
 
 // 디폴트 값을 갖는 함수
-fun plusFive(first: Int, second: Int = 5): Int {
+private fun plusFive(first: Int, second: Int = 5): Int {
     return first + second
 }
 
 // 반환값이 없는 함수 만들기
-fun printPlus(first: Int, second: Int) {
+private fun printPlus(first: Int, second: Int) {
     val result: Int = first + second
     println(result)
 }
 
 // 간단하게 함수를 선언하는 방법
-fun plusSimple(first: Int, second: Int) = first + second
+private fun plusSimple(first: Int, second: Int) = first + second
 
 // 가변인자를 갖는 함수 선언하는 방법
-fun plusMany(vararg numbers: Int) {
+private fun plusMany(vararg numbers: Int) {
     for (number in numbers) {
         println(number)
     }
