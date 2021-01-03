@@ -2,8 +2,8 @@ package com.soten.fastcampus.practice.classtest.tv
 
 class TV {
 
-	private var state: Boolean = false
-	private var channel: Int = 0
+	var state: Boolean = false
+	var channel: Int = 0
 
 	fun switch(): Boolean {
 		return if (!state) {
@@ -17,28 +17,26 @@ class TV {
 		}
 	}
 
-	fun upChannel() {
+	fun upChannel(): String {
 		if (!state) {
-			println("Tv가 꺼져있습니다.")
-			return
+			return ""
 		}
 		channel += 1
 		if (channel > 3) {
 			channel = 0
 		}
-		println("${channel}번 채널입니다.")
+		return "${channel}번 채널입니다."
 	}
 
-	fun downChannel() {
+	fun downChannel(): String {
 		if (!state) {
-			println("Tv가 꺼져있습니다.")
-			return
+			return ""
 		}
 		channel -= 1
 		if (channel < 0) {
 			channel = 3
 		}
-		println("${channel}번 채널입니다.")
+		return "${channel}번 채널입니다."
 	}
 
 }
