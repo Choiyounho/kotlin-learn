@@ -1,4 +1,4 @@
-package com.soten.fastcampus.learn.inheritance.domain
+package com.soten.fastcampus.learn.inheritance
 
 class SuperCar: Car() {
 

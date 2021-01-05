@@ -1,6 +1,5 @@
 package com.soten.fastcampus.learn.inheritance
 
-import com.soten.fastcampus.learn.inheritance.domain.SuperCar
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
