@@ -36,7 +36,7 @@ class ArrayTest {
 	@DisplayName("배열 생성(4) : 타입 미지정, {} 안에 기본값")
 	fun createArray3() {
 		val group = Array(10) { 15 }
-		val group1 = Array(5) { 1;2;3;4;5 }
+		val group1 = arrayOf(1, 2, 3, 4, 5)
 
 		assertAll({
 			assertThat(group[4]).isEqualTo(15)
