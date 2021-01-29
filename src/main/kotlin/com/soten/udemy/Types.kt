@@ -14,5 +14,5 @@ fun main() {
 
 	val aLong: Long = 0
 	val aInt: Int = aLong.toInt() // 코틀린에서는 롱의 값을 인트에 대입할 수 없다.
-	
+
 }
