@@ -53,7 +53,7 @@ class Section4Null {
 	@Test
 	@DisplayName("안전한 형변환")
 	fun casting() {
-		val a: Any? = "name"
+		val a: Any? = "name".length
 		val b: Int? = a as Int ?: 0
 		println(b)
 	}
